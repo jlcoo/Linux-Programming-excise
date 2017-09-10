@@ -1,0 +1,8 @@
+/home/jl-broher/CodingWorld/Linux-Programming/linux/HomeWork/final_lib/googletest-release-1.8.0/googletest/CMakeFiles/install.dir
+/home/jl-broher/CodingWorld/Linux-Programming/linux/HomeWork/final_lib/googletest-release-1.8.0/googletest/CMakeFiles/list_install_components.dir
+/home/jl-broher/CodingWorld/Linux-Programming/linux/HomeWork/final_lib/googletest-release-1.8.0/googletest/CMakeFiles/edit_cache.dir
+/home/jl-broher/CodingWorld/Linux-Programming/linux/HomeWork/final_lib/googletest-release-1.8.0/googletest/CMakeFiles/rebuild_cache.dir
+/home/jl-broher/CodingWorld/Linux-Programming/linux/HomeWork/final_lib/googletest-release-1.8.0/googletest/CMakeFiles/gtest.dir
+/home/jl-broher/CodingWorld/Linux-Programming/linux/HomeWork/final_lib/googletest-release-1.8.0/googletest/CMakeFiles/gtest_main.dir
+/home/jl-broher/CodingWorld/Linux-Programming/linux/HomeWork/final_lib/googletest-release-1.8.0/googletest/CMakeFiles/install/strip.dir
+/home/jl-broher/CodingWorld/Linux-Programming/linux/HomeWork/final_lib/googletest-release-1.8.0/googletest/CMakeFiles/install/local.dir

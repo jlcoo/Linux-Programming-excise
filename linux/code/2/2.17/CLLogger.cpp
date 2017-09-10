@@ -75,7 +75,7 @@ CLStatus CLLogger::WriteLog(const char *pstrMsg, long lErrorCode)
 	unsigned int len_code = strlen(buf);
 
 	unsigned int total_len = len_code + len_strmsg;
-	if((total_len > BUFFER_SIZE_LOG_FILE) || (m_bFlagForProcessExit))
+	if((total_len > BUFFER_SIZE_LOG_FILE) || (m_bFlagForProcessExit))	//m_bFlagForProcessExit为true,OnProcessExit退出，全局析构函数，再写入日志文件 
 	{
 		if(m_Fd == -1)
 			return CLStatus(-1, 0);

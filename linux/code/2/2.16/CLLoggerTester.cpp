@@ -4,6 +4,18 @@
 
 using namespace std;
 
+class A
+{
+public:
+	~A()
+	{
+		cout << "aaaaaaa" << endl;
+		CLLogger::WriteLogMsg("aaaa", 0);
+	}
+};
+
+A a;
+
 CLStatus f()
 {
 	return CLStatus(-1, 4);

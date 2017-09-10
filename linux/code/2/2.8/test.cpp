@@ -30,11 +30,14 @@ public:
 
 A f()
 {
-	return A();
+	A b;
+	return b;
+	// return A();
 }
 
 int main(int argc, char* argv[])
 {
+	// A a;
 	A a = f();
 	return 0;
 }

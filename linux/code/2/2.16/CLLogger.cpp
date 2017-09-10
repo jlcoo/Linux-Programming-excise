@@ -113,7 +113,7 @@ CLLogger* CLLogger::GetInstance()
 	{
 		m_pLog = new CLLogger;
 
-		if(atexit(CLLogger::OnProcessExit) != 0)
+		if(atexit(CLLogger::OnProcessExit) != 0)  //应用程序退出时就执行以下语句
 		{
 			if(m_pLog != 0)
 			{
@@ -128,6 +128,7 @@ CLLogger* CLLogger::GetInstance()
 
 void CLLogger::OnProcessExit()
 {
+	printf("in OnProcessExit\n");
 	CLLogger *pLogger = CLLogger::GetInstance();
 	if(pLogger != 0)
 		pLogger->Flush();
